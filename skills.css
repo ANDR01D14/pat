@@ -1,0 +1,98 @@
+ 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 30px ;
+}
+
+section {
+    margin: 40px ;
+}
+section {
+    margin: 40px ;
+}
+.creative-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.creative-skills1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.skill-card {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+   
+}
+.skill-card1 {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+   
+}
+.skill-card:hover {
+    transform: scale(1.1);
+}
+.skill-card1:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add red accent color for links */
+a {
+    color: rgb(253, 253, 253);
+}
